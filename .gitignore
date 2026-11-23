@@ -4,3 +4,4 @@
 xcuserdata/
 .vs/
 build/
+__pycache__/
