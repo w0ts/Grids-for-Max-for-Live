@@ -22,15 +22,15 @@
 //
 
 
+// The standard random() function is not standard on Windows: rand_s() is used there, and it is only declared when
+// _CRT_RAND_S is defined before <stdlib.h> (which ext.h includes).
+#ifdef _WIN32
+#define _CRT_RAND_S
+#endif
+
 #include "ext.h"
 #include "resources.h"
 #include <math.h>
-
-// The standard random() function is not standard on Windows.
-// We need to do this to setup the rand_s() function.
-#ifdef WIN_VERSION
-#define _CRT_RAND_S
-#endif
 
 typedef struct _grids
 {
@@ -97,7 +97,7 @@ void grids_evaluate_euclidean(t_grids *grids);
 void grids_output(t_grids *grids);
 
 
-int C74_EXPORT main(void)
+void ext_main(void *r)
 {
 	t_class *clazz;
 
@@ -123,8 +123,6 @@ int C74_EXPORT main(void)
 
 	class_register(CLASS_BOX, clazz);
 	s_grids_class = clazz;
-
-	return 0;
 }
 
 
