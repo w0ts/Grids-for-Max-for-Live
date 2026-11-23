@@ -4,7 +4,7 @@
 // Port of Mutable Instruments Grids for Max4Live
 //
 // Author: w0ts
-// https://github.com/w0ts/Grids
+// https://github.com/w0ts/Grids-for-Max-for-Live
 //
 // Based on the code of Mutable Instruments Grids by Emilie Gillet
 // https://github.com/pichenettes/eurorack/tree/master/grids

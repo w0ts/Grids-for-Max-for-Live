@@ -1,13 +1,13 @@
 # Grids for Max for Live
 
-> ## [→ w0ts.github.io/Grids](https://w0ts.github.io/Grids/)
+> ## [→ w0ts.github.io/Grids-for-Max-for-Live](https://w0ts.github.io/Grids-for-Max-for-Live/)
 > **What Grids for Max for Live is, the download and how to use it: on the site.**
 > This README is for developers.
 
 The C external at the heart of the Max for Live device: a port of the code of
 [Mutable Instruments Grids](https://github.com/pichenettes/eurorack/tree/master/grids), the topographic drum sequencer
 by Émilie Gillet. The device itself (`Grids.amxd`, with the external inside) is attached to the
-[releases](https://github.com/w0ts/Grids/releases/latest).
+[releases](https://github.com/w0ts/Grids-for-Max-for-Live/releases/latest).
 
 ## Layout
 
