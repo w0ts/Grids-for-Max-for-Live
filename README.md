@@ -41,4 +41,6 @@ To release, push a `v*` tag: the workflow creates the release if needed and atta
 To change the device itself, open `Grids.amxd` in Max, edit, freeze and save, then put its patcher back into
 `device/patcher.json` (`tools/amxd.py list` shows what a device holds; `amxd.read()` gives the JSON entry).
 
+What changed in each version: [CHANGELOG.md](CHANGELOG.md).
+
 GPL-3.0 ([LICENSE](LICENSE)), as the original Grids code.

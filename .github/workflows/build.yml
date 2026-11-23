@@ -69,5 +69,5 @@ jobs:
           gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1 ||
             gh release create "$GITHUB_REF_NAME" --verify-tag --repo "$GITHUB_REPOSITORY" \
               --title "Grids for Max for Live ${GITHUB_REF_NAME#v}" \
-              --notes "Grids.amxd: the Max for Live device, built from this tag. Drop it into your Live set or your User Library. How to use it: https://w0ts.github.io/Grids-for-Max-for-Live/"
+              --notes "Grids.amxd: the Max for Live device, built from this tag. Drop it into your Live set or your User Library. How to use it: https://w0ts.github.io/Grids-for-Max-for-Live/ What changed: https://github.com/w0ts/Grids-for-Max-for-Live/blob/master/CHANGELOG.md"
           gh release upload "$GITHUB_REF_NAME" Grids.amxd --clobber --repo "$GITHUB_REPOSITORY"
