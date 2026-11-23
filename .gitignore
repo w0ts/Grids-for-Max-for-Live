@@ -1,0 +1,6 @@
+# IDE user state: local paths and settings, never shared
+*.suo
+*.vcxproj.user
+xcuserdata/
+.vs/
+build/
